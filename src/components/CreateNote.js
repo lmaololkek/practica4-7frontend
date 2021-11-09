@@ -45,7 +45,7 @@ function CreateNote(props) {
             await axios.post('https://practica4-7backend.herokuapp.com/api/notes/', newNote);
         }
 
-        window.location.href = '/';
+        window.location.href = '/practica4-7frontend/';
     }
 
     const onInputChangeUser = e => {

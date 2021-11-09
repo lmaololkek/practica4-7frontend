@@ -15,10 +15,10 @@ function App() {
       <Navigation />
       <div className="container p-4">
         <Routes>
-          <Route path="/" exact element={<NotesList />} />
-          <Route path="/edit/:id" element={<CreateNote />}/>
-          <Route path="/create" exact element={<CreateNote />} />
-          <Route path="/user" exact element={<CreateUser />} />
+          <Route path="/practica4-7frontend/" exact element={<NotesList />} />
+          <Route path="/practica4-7frontend/edit/:id" element={<CreateNote />}/>
+          <Route path="/practica4-7frontend/create" exact element={<CreateNote />} />
+          <Route path="/practica4-7frontend/user" exact element={<CreateUser />} />
         </Routes>
       </div>
     </Router>
