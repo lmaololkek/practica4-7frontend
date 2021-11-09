@@ -48,17 +48,17 @@ function CreateNote(props) {
         window.location.href = '/';
     }
 
-    const onInputChangeUser = arg => {
-        setUserSelected(arg);
+    const onInputChangeUser = (e) => {
+        setUserSelected(e.target.value);
     }
 
-    const onInputChangeTitle = arg => {
-        console.log(arg);
-        setTitle(arg);
+    const onInputChangeTitle = (e) => {
+        console.log(e.target.value);
+        setTitle(e.target.value);
     }
 
-    const onInputChangeContent = arg => {
-        setContent(arg);
+    const onInputChangeContent = (e) => {
+        setContent(e.target.value);
     }
 
     const onChangeDate = date => {
