@@ -53,6 +53,7 @@ function CreateNote(props) {
     }
 
     const onInputChangeTitle = arg => {
+        console.log(arg);
         setTitle(arg);
     }
 
