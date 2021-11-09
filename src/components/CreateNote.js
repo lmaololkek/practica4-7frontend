@@ -42,7 +42,7 @@ function CreateNote(props) {
         if (editing) {
             await axios.put('https://practica4-7backend.herokuapp.com/api/notes/' + _id, newNote)
         } else {
-            await axios.post('https://practica4-7backend.herokuapp.com/api/notes', newNote);
+            await axios.post('https://practica4-7backend.herokuapp.com/api/notes/', newNote);
         }
 
         window.location.href = '/';
