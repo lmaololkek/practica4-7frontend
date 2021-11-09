@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/practica4-7frontend/static/css/main.559109e9.chunk.css",
-    "main.js": "/practica4-7frontend/static/js/main.05fba844.chunk.js",
-    "main.js.map": "/practica4-7frontend/static/js/main.05fba844.chunk.js.map",
-    "runtime-main.js": "/practica4-7frontend/static/js/runtime-main.54059954.js",
-    "runtime-main.js.map": "/practica4-7frontend/static/js/runtime-main.54059954.js.map",
-    "static/css/2.f105e1c5.chunk.css": "/practica4-7frontend/static/css/2.f105e1c5.chunk.css",
-    "static/js/2.3c935904.chunk.js": "/practica4-7frontend/static/js/2.3c935904.chunk.js",
-    "static/js/2.3c935904.chunk.js.map": "/practica4-7frontend/static/js/2.3c935904.chunk.js.map",
-    "index.html": "/practica4-7frontend/index.html",
-    "static/css/2.f105e1c5.chunk.css.map": "/practica4-7frontend/static/css/2.f105e1c5.chunk.css.map",
-    "static/css/main.559109e9.chunk.css.map": "/practica4-7frontend/static/css/main.559109e9.chunk.css.map",
-    "static/js/2.3c935904.chunk.js.LICENSE.txt": "/practica4-7frontend/static/js/2.3c935904.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.559109e9.chunk.css",
+    "main.js": "/static/js/main.05fba844.chunk.js",
+    "main.js.map": "/static/js/main.05fba844.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f5cfbed7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f5cfbed7.js.map",
+    "static/css/2.f105e1c5.chunk.css": "/static/css/2.f105e1c5.chunk.css",
+    "static/js/2.3c935904.chunk.js": "/static/js/2.3c935904.chunk.js",
+    "static/js/2.3c935904.chunk.js.map": "/static/js/2.3c935904.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.f105e1c5.chunk.css.map": "/static/css/2.f105e1c5.chunk.css.map",
+    "static/css/main.559109e9.chunk.css.map": "/static/css/main.559109e9.chunk.css.map",
+    "static/js/2.3c935904.chunk.js.LICENSE.txt": "/static/js/2.3c935904.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.54059954.js",
+    "static/js/runtime-main.f5cfbed7.js",
     "static/css/2.f105e1c5.chunk.css",
     "static/js/2.3c935904.chunk.js",
     "static/css/main.559109e9.chunk.css",
