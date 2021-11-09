@@ -23,12 +23,12 @@ export class NotesList extends Component {
 
     deleteNote = async (id) => {
         this.handleModalShowHide()
-        await axios.delete('http://localhost:4000/api/notes/' + id)
+        await axios.delete('https://practica4-7backend.herokuapp.com/api/notes/' + id)
         this.getNotes();
     }
 
     async getNotes() {
-        const res = await axios.get('http://localhost:4000/api/notes');
+        const res = await axios.get('https://practica4-7backend.herokuapp.com/api/notes');
         this.setState({ notes: res.data })
     }
 

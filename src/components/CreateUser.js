@@ -22,7 +22,7 @@ export class CreateUser extends Component {
     }
 
     getUsers = async () => {
-        const res = await axios.get('http://localhost:4000/api/users');
+        const res = await axios.get('https://practica4-7backend.herokuapp.com/api/users');
         this.setState({ users: res.data });
     }
 
@@ -34,7 +34,7 @@ export class CreateUser extends Component {
 
     onSubmit = async (e) => {
         e.preventDefault();
-        await axios.post('http://localhost:4000/api/users', {
+        await axios.post('https://practica4-7backend.herokuapp.com/api/users', {
             username: this.state.username
         })
         this.setState({ username: '' });
@@ -43,7 +43,7 @@ export class CreateUser extends Component {
 
     deleteUser = async (id) => {
         this.handleModalShowHide()
-        await axios.delete('http://localhost:4000/api/users/' + id)
+        await axios.delete('https://practica4-7backend.herokuapp.com/api/users/' + id)
         this.getUsers();
     }
 

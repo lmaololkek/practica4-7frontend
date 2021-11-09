@@ -17,11 +17,11 @@ function CreateNote(props) {
     const [_id, set_id] = useState('');
 
     useEffect(async () => {
-        const res = await axios.get('http://localhost:4000/api/users');
+        const res = await axios.get('https://practica4-7backend.herokuapp.com/api/users');
         setUsers(res.data.map(user => user.username));
         setUserSelected(res.data[0].username);
         if (id) {
-            const res = await axios.get('http://localhost:4000/api/notes/'+id);
+            const res = await axios.get('https://practica4-7backend.herokuapp.com/api/notes/'+id);
             setTitle(res.data.title);
             setContent(res.data.content);
             setDate(new Date(res.data.date));
@@ -40,9 +40,9 @@ function CreateNote(props) {
             author: userSelected
         };
         if (editing) {
-            await axios.put('http://localhost:4000/api/notes/' + _id, newNote)
+            await axios.put('https://practica4-7backend.herokuapp.com/api/notes/' + _id, newNote)
         } else {
-            await axios.post('http://localhost:4000/api/notes', newNote);
+            await axios.post('https://practica4-7backend.herokuapp.com/api/notes', newNote);
         }
 
         window.location.href = '/';
