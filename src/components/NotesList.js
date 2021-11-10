@@ -41,7 +41,7 @@ export class NotesList extends Component {
                             <div className="card">
                                 <div className="card-header d-flex justify-content-between">
                                     <h5>{note.title}</h5>
-                                    <Link className="btn btn-secondary" to={"/edit/" + note._id}>
+                                    <Link className="btn btn-secondary" to={"/practica4-7frontend/edit/" + note._id}>
                                         Edit
                                     </Link>
                                 </div>
